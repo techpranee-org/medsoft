@@ -304,6 +304,7 @@
 /*** Team ***/
 .team-item {
     position: relative;
+    background-color: #fcfeff;
     overflow: hidden;
     height: 100%;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
@@ -312,7 +313,12 @@
 .team-item img {
     transition: .5s;
 }
-
+.homeimg{
+    height: 100px;
+    max-width: 100%;
+    width: auto;
+margin: auto;
+}
 
 .team-text {
     position: absolute;
